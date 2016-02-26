@@ -1,6 +1,13 @@
-  
-  Usage
+###Regarding Issues
+simple dialog for vue
 
+### Installation  
+```
+npm install --save vue-paginator
+```
+
+###Example
+```
   <!-- use the modal component, pass in the prop -->
   <modal :show.sync="showModal">
     <!--
@@ -10,3 +17,4 @@
     <h3 slot="header">custom header</h3>
     <h3 slot="body">custom body</h3>
   </modal>
+  ```
